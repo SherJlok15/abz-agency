@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  color: $main-color-dim;
+  font-size: $main-font-size;
+  font-family: $main-font-openSans-regular;
+  border-top: 1px solid #CED4DA;
+  .page_container {
+    .footer-container {
+      text-align: center;
+      padding: 20px 0 15px; 
+    }
+  }
+}

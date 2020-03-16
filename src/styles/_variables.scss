@@ -1,0 +1,39 @@
+//colors
+$main-primary-color: #ef5b4c;
+$main-secondary-color: #007bff;
+$main-color-black: #212529;
+$main-color-light: #fff;
+$main-color-dim: #4c4b4b;
+$main-button-color: #fefefe;
+$users-bg-color: #f9f9f3;
+//font-family
+$main-font-openSans-regular: 'OpenSans-Regular';
+$main-font-openSans-semibold: 'OpenSans-SemiBold';
+//font-sizes
+$main-font-size: 16px;
+$logo-font-size: 16px;
+$nav_bar-font-size: 14px;
+$title-font-size: 50px;
+$users-name-font-size: 24px;
+
+
+@media screen and (max-width: 1170px) {
+  $title-font-size: 40px;
+}
+
+
+
+:export {
+  main-color-black: $main-color-black;
+  main-color-light: $main-color-light;
+  main-color-dim: $main-color-dim;
+  main-button-color: $main-button-color;
+  main-font-openSans-regular: $main-font-openSans-regular;
+  main-font-openSans-semibold: $main-font-openSans-semibold;
+  main-font-size: $main-font-size;
+  logo-font-size: $logo-font-size;
+  nav_bar-font-size: $nav_bar-font-size;
+  title-font-size: $title-font-size;
+  users-bg-color: $users-bg-color;
+  users-name-font-size: $users-name-font-size;
+}

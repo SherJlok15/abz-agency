@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+
+.about-me {
+  font-family: $main-font-openSans-regular;
+  font-size: $main-font-size;
+  color: $main-color-black;
+  .page_container {
+    .about-me__container {
+      margin: 152px 0;
+      margin-left: 54px;
+      margin-right: 30px;
+      .aboute-me__title {
+        text-align: center;
+        margin-bottom: 68px;
+      }
+      .about-me__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__pikchure {
+          max-width: 339px;
+          width: 100%;
+          margin-right: 10px;
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+
+        &__information {
+          .information__title {
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 20px;
+          }
+
+          .information__text {
+            text-align: justify;
+            font-size: $main-font-size;
+            line-height: 24px;
+            color: $main-color-dim;
+            max-width: 550px;
+            width: 100%;
+            margin-bottom: 28px;
+          }
+
+          .information__button {
+            background-color: $main-color-light;
+            font-size: $main-font-size;
+            border: none;
+            color: $main-primary-color;
+            font-family: $main-font-openSans-semibold;
+            margin-left: -5px;
+            transition: 0.5s;
+            &:hover {
+              color: #eb3220;
+            }
+          }
+        }
+      }
+    }
+  }
+}

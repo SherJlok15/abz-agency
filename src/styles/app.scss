@@ -1,0 +1,90 @@
+@import './reset.css';
+@import './fonts';
+@import './variables';
+
+.page_container {
+  max-width: 1024px;
+  min-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+    button:focus {
+      outline: none;
+    }
+
+    button:hover, label:hover, a:hover  {
+      cursor: pointer;
+    }
+
+}
+
+.title {
+  font-size: $title-font-size;
+  line-height: 54px;
+  transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+  .header {
+    .page_container {
+      .open-menu {
+        display: none;
+        .header-container-open-menu {
+
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+  .header {
+    .page_container {
+      .header__open-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+    }
+  }
+
+  .header {
+    .page_container {
+      .header-container {
+        display: none;
+      }
+    }
+  }
+
+
+}
+
+@media (min-width: 1281px) {
+
+  .title {
+    font-size: $title-font-size;
+    line-height: 54px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  .title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+}
+
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+  .title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+}

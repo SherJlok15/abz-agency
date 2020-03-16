@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.banner {
+  font-family: $main-font-openSans-regular;
+  font-size: $main-font-size;
+  color: $main-color-light;
+  background-image: url('../../images/banner_background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  .page_container {
+
+    .banner-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 560px;
+      width: 100%;
+      padding: 105px 0 112px;
+
+      .banner__title {
+        text-transform: uppercase;
+        margin-bottom: 28px;
+        padding-left: 30px;
+      }
+
+      .banner__text {
+        line-height: 24px;
+        margin-bottom: 33px;
+        padding-left: 30px;
+      }
+
+      .banner__button {
+        color: $main-button-color;
+        font-family: $main-font-openSans-semibold;
+        background-color: $main-primary-color;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 57px 9px 59px;
+        font-size: inherit;
+        transition: 0.5s;
+        margin-left: 30px;
+        &:hover {
+          background-color: #eb3220;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import "../../styles/variables.scss";
+
+.full-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  font-size: $main-font-size;
+  &__photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    font-size: $users-name-font-size;
+    margin-bottom: 17px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-width: 200px;
+  }
+
+  &__position {
+    line-height: 24px;
+    color: $main-color-dim;
+    margin-bottom: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-width: 200px;
+  }
+
+  &__email {
+    line-height: 24px;
+    color: $main-color-dim;
+    margin-bottom: 12px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-width: 200px;
+  }
+
+  &__phone {
+    line-height: 24px;
+    color: $main-color-dim;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-width: 200px;
+  }
+}
