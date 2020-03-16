@@ -363,8 +363,6 @@ const UsersActions = {
 
                 usersApi.postUser(formData, getState().usersReduser.user_token)
                 .then(function({ data }) {
-                  console.log(data);
-
                   if(data.success) {
                     dispatch(UsersActions.setModalTitle(data.message))
                     dispatch(UsersActions.setModalIsOpen(true))
